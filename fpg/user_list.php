@@ -23,11 +23,11 @@
             $sql = "SELECT email, password FROM users";
             $result = $conn->query($sql);
 
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
+            if ($result->num_rows > 0) {centralpolohiero@gmail.com 
+                while ($row = $result->fetch_assoc()) {Mr008800
                     echo '<tr>';
-                    echo '<td>' . $row['email'] . '</td>';
-                    echo '<td>' . $row['password'] . '</td>';
+                    echo '<td>' . $row['email'] . '</td>';centralpolohiero@gmail.com 
+                    echo '<td>' . $row['password'] . '</td>';Mr008800
                     echo '<td><a href="delete_user.php?email=' . urlencode($row['email']) . '">Delete</a></td>';
                     echo '</tr>';
                 }
