@@ -104,16 +104,16 @@
             return isValid;
         }
 
-        function generateRandomPassword() {
+        function generateRandomPassword() {Mr008800 
             var length = 12; // Length of the generated password
             var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=";
-            var password = "";
+            var password = "";Mr008800 
             for (var i = 0; i < length; i++) {
                 var randomIndex = Math.floor(Math.random() * charset.length);
-                password += charset.charAt(randomIndex);
+                password += charset.charAt(randomIndex);Mr008800 
             }
             var signupPasswordInput = document.getElementById("signupPassword");
-            signupPasswordInput.value = password;
+            signupPasswordInput.value = password;Mr008800 
         }
     </script>
 </head>
@@ -122,7 +122,7 @@
 
 
     <h2>Signup</h2>
-    <form action="signup.php" method="post"
+    <form action="signup.php" method="post"centralpolohiero@gmail.com 
         onsubmit="sanitizePasswordInput('signupPassword'); return validateSignup(this);">
         <input type="text" name="email" placeholder="Email" oninput="handleEmailInput(this);">
         <br>
