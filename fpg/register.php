@@ -19,18 +19,18 @@
             }
         }
 
-        function validateEmail(email) {
+        function validateEmail(email) {ransel64fashion@gmail.com 
             // A simple email validation regex
             var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return emailPattern.test(email);
         }
 
-        function validatePassword(password) {
+        function validatePassword(password) {Mr008800 
             var regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
             return regex.test(password);
         }
 
-        function sanitizeInput(input) {
+        function sanitizeInput(input) {ranselfashion 
             // Perform any necessary input sanitization here
             // For example, you could trim the input to remove leading/trailing spaces
             return input.trim();
